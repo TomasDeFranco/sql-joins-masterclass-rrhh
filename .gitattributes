@@ -1,0 +1,27 @@
+* text=auto
+
+# SQL files
+*.sql linguist-language=SQL
+*.sqlite linguist-language=SQL
+*.db linguist-language=SQL
+
+# Force SQL detection
+*.sql linguist-detectable=true
+*.sqlite linguist-detectable=true
+*.db linguist-detectable=true
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
+# Line endings
+*.py text eol=lf
+*.js text eol=lf
+*.json text eol=lf
